@@ -1,0 +1,87 @@
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+body {
+  position: relative;
+  padding: 10px 15px;
+  width: 270px;
+  font-family: Roboto;
+}
+
+ol {
+  margin-left: 15px;
+}
+
+.title {
+  letter-spacing: 0.15em;
+}
+
+.catalog-list {
+  margin-bottom: 40px;
+}
+
+.catalog-item:not(:last-child) {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #000;
+}
+
+.catalog-link {
+  width: 100%;
+}
+
+.back-link {
+  border: 2px solid #000;
+}
+
+.up-link {
+  padding: 0;
+  position: fixed;
+  top: 150px;
+  left: 270px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  z-index: 100;
+  font-size: 38px;
+  line-height: 1;
+  border: 2px solid #000;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.catalog-item__title {
+  font-size: 18px;
+  color: #000;
+}
+
+.catalog-item__image {
+  margin: 10px 0;
+  max-width: 250px;
+  height: auto;
+}
+
+.belorus-mark {
+  font-weight: 700;
+  color: #e74c3c;
+}
+
+.todo-mark {
+  font-weight: 700;
+  color: #3498db;
+}
